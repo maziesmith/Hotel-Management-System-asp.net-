@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Hotel_Management.SiteMaster" %>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hotel Mad Men</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+
+
+
+
+    .auto-style1 {
+        width: 492px;
+    }
+
+
+
+
+    .auto-style6 {
+        width: 639px;
+        height: 48px;
+    }
+
+
+
+
+    .auto-style7 {
+        font-size: xx-large;
+        color: #CCFF66;
+    }
+    .auto-style8 {
+        margin-left: 280px;
+    }
+
+
+
+
+</style>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <div id="website_title">
+      <div id="title"> Hotel Mad-Men</div>
+      <div id="salgon"> The best service at the lowest price</div>
+    </div>
+  </div>
+  <!-- end of header -->
+  <div id="banner" style="background: url(images/banner_bg.jpg) no-repeat;">
+    <div id="menu" class="auto-style6">
+      <ul class="auto-style1">
+        <li><a  style="	background: url(images/menu_divider.gif) top right repeat-y;" href="#" >Home</a></li>
+        <li><a style="	background: url(images/menu_divider.gif) top right repeat-y;" href="Hotel_Login.aspx">Login</a></li>
+        <li><a style="	background: url(images/menu_divider.gif) top right repeat-y;" href="Registration.aspx" >Registration</a></li>
+      
+        <li><a style="	background: url(images/menu_divider.gif) top right repeat-y;" href="Contact.aspx">Contact</a></li>
+        <li><a style="	background: url(images/menu_divider.gif) top right repeat-y;" href="About.aspx">Services</a></li>
+         <li><a  style="	background: url(images/menu_divider.gif) top right repeat-y;" href="Hotel_Login.aspx" >Logout</a></li>
+
+      </ul>
+    </div>
+  </div>
+    <div id="<con></con>tent">
+   
+    
+        <div id="content_right" style="	background: url(images/content_top.jpg) top repeat-x;">
+            <div class="content_right_section">
+                <div class="content_title_01" style="text-align: left" >
+                    <p class="auto-style8">
+                        <span class="auto-style7"><strong>Welcome to Hotel Mad-Men</strong></span></p>
+                </div>
+&nbsp;</div>
+     
+
+
+
+
+
+
+
+
+
+    
+    <!-- end of content right -->
+    
+  </div>
+        <div class="maincontent">
+            <div>
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                    <p>
+                        &nbsp;</p>
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div id="footer">
+            Copyright &copy; 209 <a href="#"><strong>RATAN | BITTO | RIHAM</strong></a>
+        </div>
+  <!-- end of footer -->
+  </div>
+</div>
+<!-- end of container -->
+</body>
+</html>
